@@ -15,6 +15,7 @@
   ],
   "author": "Deepak Suthar",
   "license": "ISC",
+  "repository": {"type": "git","url": "https://github.com/codewithdpk/pretty-progress"},
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
@@ -26,6 +27,7 @@
     "rollup": "^2.56.2",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-styles": "^3.14.1"
+
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3"
