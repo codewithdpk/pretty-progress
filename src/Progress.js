@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-const Progress = ({width}) =>{
+const PrettyProgress = ({width}) =>{
   return (
    <div className="progress-bar__container">
      <div className="progress-bar__container--filled" style ={{width:`${width}%`}}></div>
@@ -9,4 +9,4 @@ const Progress = ({width}) =>{
   );
 }
 
-export default Progress;
+export default PrettyProgress;
