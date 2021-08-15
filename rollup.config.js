@@ -4,7 +4,7 @@ import babel from "@rollup/plugin-babel";
 const sourcemaps = require("rollup-plugin-sourcemaps");
 
 // the entry point for the library
-const input = "src/index.js";
+const input = "./src/index.js";
 
 //
 var MODE = [
