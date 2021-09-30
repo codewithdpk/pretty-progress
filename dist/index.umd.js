@@ -22,7 +22,7 @@
         className: "progress-bar__container--filled",
         style: {
           width: "".concat(width, "%"),
-          background: "".concat(color)
+          background: "".concat(color, " !important")
         }
       }));
     };
