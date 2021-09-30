@@ -14,13 +14,15 @@
     n(css,{});
 
     var PrettyProgress = function PrettyProgress(_ref) {
-      var width = _ref.width;
+      var width = _ref.width,
+          color = _ref.color;
       return /*#__PURE__*/React__default['default'].createElement("div", {
         className: "progress-bar__container"
       }, /*#__PURE__*/React__default['default'].createElement("div", {
         className: "progress-bar__container--filled",
         style: {
-          width: "".concat(width, "%")
+          width: "".concat(width, "%"),
+          background: "".concat(color)
         }
       }));
     };
