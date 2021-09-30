@@ -6,7 +6,7 @@ const PrettyProgress = ({ width, color }) => {
     <div className="progress-bar__container">
       <div
         className="progress-bar__container--filled"
-        style={{ width: `${width}%`, background: `${color}` }}
+        style={{ width: `${width}%`, background: `${color} !important` }}
       ></div>
     </div>
   );
