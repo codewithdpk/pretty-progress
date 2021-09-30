@@ -43,9 +43,10 @@ $   <div className="your__wrapper">
 
 Props with usecases
 
-| props   | Mandatory | Description                               |
-| :------ | :-------- | :---------------------------------------- |
-| `width` | Yes       | Dynamic value of your progress completion |
+| props   | Mandatory | Description                                     |
+| :------ | :-------- | :---------------------------------------------- |
+| `width` | Yes       | Dynamic value of your progress completion       |
+| `color` | Yes       | Dynamic value of your progress background color |
 
 ## License
 
